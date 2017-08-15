@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: 1e0044ffa4bb2432d8630aa11332a048
+timeCreated: 1501720772
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Alice
+    100002: //RootNode
+    100004: Head
+    100006: HeadTip
+    100008: Hips
+    100010: LeftArm
+    100012: LeftFingers
+    100014: LeftFingersTip
+    100016: LeftFoot
+    100018: LeftFoot_Goal
+    100020: LeftForeArm
+    100022: LeftHand
+    100024: LeftLeg
+    100026: LeftLegShin
+    100028: LeftThumb
+    100030: LeftThumbBend
+    100032: LeftThumbTip
+    100034: LeftToes
+    100036: LeftToesTip
+    100038: Neck
+    100040: Null
+    100042: RightArm
+    100044: RightFingers
+    100046: RightFingersTip
+    100048: RightFoot
+    100050: RightFoot_Goal
+    100052: RightForeArm
+    100054: RightHand
+    100056: RightLeg
+    100058: RightLegShin
+    100060: RightThumb
+    100062: RightThumbBend
+    100064: RightThumbTip
+    100066: RightToes
+    100068: RightToesTip
+    100070: Spine1
+    100072: Spine2
+    400000: Alice
+    400002: //RootNode
+    400004: Head
+    400006: HeadTip
+    400008: Hips
+    400010: LeftArm
+    400012: LeftFingers
+    400014: LeftFingersTip
+    400016: LeftFoot
+    400018: LeftFoot_Goal
+    400020: LeftForeArm
+    400022: LeftHand
+    400024: LeftLeg
+    400026: LeftLegShin
+    400028: LeftThumb
+    400030: LeftThumbBend
+    400032: LeftThumbTip
+    400034: LeftToes
+    400036: LeftToesTip
+    400038: Neck
+    400040: Null
+    400042: RightArm
+    400044: RightFingers
+    400046: RightFingersTip
+    400048: RightFoot
+    400050: RightFoot_Goal
+    400052: RightForeArm
+    400054: RightHand
+    400056: RightLeg
+    400058: RightLegShin
+    400060: RightThumb
+    400062: RightThumbBend
+    400064: RightThumbTip
+    400066: RightToes
+    400068: RightToesTip
+    400070: Spine1
+    400072: Spine2
+    4300000: Alice
+    7400000: C4D Animation Take
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Alice
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 65
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: LeftFoot_Goal
+        weight: 1
+      - path: Null
+        weight: 1
+      - path: Null/Alice
+        weight: 1
+      - path: Null/Alice/Hips
+        weight: 1
+      - path: Null/Alice/Hips/LeftLeg
+        weight: 1
+      - path: Null/Alice/Hips/LeftLeg/LeftLegShin
+        weight: 1
+      - path: Null/Alice/Hips/LeftLeg/LeftLegShin/LeftFoot
+        weight: 1
+      - path: Null/Alice/Hips/LeftLeg/LeftLegShin/LeftFoot/LeftToes
+        weight: 1
+      - path: Null/Alice/Hips/LeftLeg/LeftLegShin/LeftFoot/LeftToes/LeftToesTip
+        weight: 1
+      - path: Null/Alice/Hips/RightLeg
+        weight: 1
+      - path: Null/Alice/Hips/RightLeg/RightLegShin
+        weight: 1
+      - path: Null/Alice/Hips/RightLeg/RightLegShin/RightFoot
+        weight: 1
+      - path: Null/Alice/Hips/RightLeg/RightLegShin/RightFoot/RightToes
+        weight: 1
+      - path: Null/Alice/Hips/RightLeg/RightLegShin/RightFoot/RightToes/RightToesTip
+        weight: 1
+      - path: Null/Alice/Hips/Spine1
+        weight: 1
+      - path: Null/Alice/Hips/Spine1/Spine2
+        weight: 1
+      - path: Null/Alice/Hips/Spine1/Spine2/LeftArm
+        weight: 1
+      - path: Null/Alice/Hips/Spine1/Spine2/LeftArm/LeftForeArm
+        weight: 1
+      - path: Null/Alice/Hips/Spine1/Spine2/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: Null/Alice/Hips/Spine1/Spine2/LeftArm/LeftForeArm/LeftHand/LeftFingers
+        weight: 1
+      - path: Null/Alice/Hips/Spine1/Spine2/LeftArm/LeftForeArm/LeftHand/LeftFingers/LeftFingersTip
+        weight: 1
+      - path: Null/Alice/Hips/Spine1/Spine2/LeftArm/LeftForeArm/LeftHand/LeftThumb
+        weight: 1
+      - path: Null/Alice/Hips/Spine1/Spine2/LeftArm/LeftForeArm/LeftHand/LeftThumb/LeftThumbBend
+        weight: 1
+      - path: Null/Alice/Hips/Spine1/Spine2/LeftArm/LeftForeArm/LeftHand/LeftThumb/LeftThumbBend/LeftThumbTip
+        weight: 1
+      - path: Null/Alice/Hips/Spine1/Spine2/Neck
+        weight: 1
+      - path: Null/Alice/Hips/Spine1/Spine2/Neck/Head
+        weight: 1
+      - path: Null/Alice/Hips/Spine1/Spine2/Neck/Head/HeadTip
+        weight: 1
+      - path: Null/Alice/Hips/Spine1/Spine2/RightArm
+        weight: 1
+      - path: Null/Alice/Hips/Spine1/Spine2/RightArm/RightForeArm
+        weight: 1
+      - path: Null/Alice/Hips/Spine1/Spine2/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: Null/Alice/Hips/Spine1/Spine2/RightArm/RightForeArm/RightHand/RightFingers
+        weight: 1
+      - path: Null/Alice/Hips/Spine1/Spine2/RightArm/RightForeArm/RightHand/RightFingers/RightFingersTip
+        weight: 1
+      - path: Null/Alice/Hips/Spine1/Spine2/RightArm/RightForeArm/RightHand/RightThumb
+        weight: 1
+      - path: Null/Alice/Hips/Spine1/Spine2/RightArm/RightForeArm/RightHand/RightThumb/RightThumbBend
+        weight: 1
+      - path: Null/Alice/Hips/Spine1/Spine2/RightArm/RightForeArm/RightHand/RightThumb/RightThumbBend/RightThumbTip
+        weight: 1
+      - path: RightFoot_Goal
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

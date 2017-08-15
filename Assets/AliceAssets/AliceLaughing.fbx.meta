@@ -1,0 +1,348 @@
+fileFormatVersion: 2
+guid: d05ae72532c074394b2cef4aad4a9d32
+timeCreated: 1501720773
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 1
+    100002: 1_2
+    100004: 1_3
+    100006: a
+    100008: a_2
+    100010: a_3
+    100012: Alice
+    100014: Alice_2
+    100016: //RootNode
+    100018: H
+    100020: H_2
+    100022: H_3
+    100024: Ha
+    100026: Ha_1
+    100028: Ha_2
+    100030: Ha_2_2
+    100032: Ha_3
+    100034: Ha_4
+    100036: Head
+    100038: HeadTip
+    100040: Hips
+    100042: LeftArm
+    100044: LeftFingers
+    100046: LeftFingersTip
+    100048: LeftFoot
+    100050: LeftFoot_Goal
+    100052: LeftForeArm
+    100054: LeftHand
+    100056: LeftLeg
+    100058: LeftLegShin
+    100060: LeftThumb
+    100062: LeftThumbBend
+    100064: LeftThumbTip
+    100066: LeftToes
+    100068: LeftToesTip
+    100070: Neck
+    100072: Physical_Sky
+    100074: RightArm
+    100076: RightFingers
+    100078: RightFingersTip
+    100080: RightFoot
+    100082: RightFoot_Goal
+    100084: RightForeArm
+    100086: RightHand
+    100088: RightLeg
+    100090: RightLegShin
+    100092: RightThumb
+    100094: RightThumbBend
+    100096: RightThumbTip
+    100098: RightToes
+    100100: RightToesTip
+    100102: Spine1
+    100104: Spine2
+    100106: Text
+    100108: Text_2
+    400000: 1
+    400002: 1_2
+    400004: 1_3
+    400006: a
+    400008: a_2
+    400010: a_3
+    400012: Alice
+    400014: Alice_2
+    400016: //RootNode
+    400018: H
+    400020: H_2
+    400022: H_3
+    400024: Ha
+    400026: Ha_1
+    400028: Ha_2
+    400030: Ha_2_2
+    400032: Ha_3
+    400034: Ha_4
+    400036: Head
+    400038: HeadTip
+    400040: Hips
+    400042: LeftArm
+    400044: LeftFingers
+    400046: LeftFingersTip
+    400048: LeftFoot
+    400050: LeftFoot_Goal
+    400052: LeftForeArm
+    400054: LeftHand
+    400056: LeftLeg
+    400058: LeftLegShin
+    400060: LeftThumb
+    400062: LeftThumbBend
+    400064: LeftThumbTip
+    400066: LeftToes
+    400068: LeftToesTip
+    400070: Neck
+    400072: Physical_Sky
+    400074: RightArm
+    400076: RightFingers
+    400078: RightFingersTip
+    400080: RightFoot
+    400082: RightFoot_Goal
+    400084: RightForeArm
+    400086: RightHand
+    400088: RightLeg
+    400090: RightLegShin
+    400092: RightThumb
+    400094: RightThumbBend
+    400096: RightThumbTip
+    400098: RightToes
+    400100: RightToesTip
+    400102: Spine1
+    400104: Spine2
+    400106: Text
+    400108: Text_2
+    2300000: a
+    2300002: a_2
+    2300004: a_3
+    2300006: H
+    2300008: H_2
+    2300010: H_3
+    3300000: a
+    3300002: a_2
+    3300004: a_3
+    3300006: H
+    3300008: H_2
+    3300010: H_3
+    4300000: H
+    4300002: a
+    4300004: H_2
+    4300006: a_2
+    4300008: H_3
+    4300010: a_3
+    4300012: Alice_2
+    7400000: C4D Animation Take
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Alice_2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Alice
+        weight: 1
+      - path: Alice/Alice_2
+        weight: 1
+      - path: Alice/Alice_2/Hips
+        weight: 1
+      - path: Alice/Alice_2/Hips/LeftLeg
+        weight: 1
+      - path: Alice/Alice_2/Hips/LeftLeg/LeftLegShin
+        weight: 1
+      - path: Alice/Alice_2/Hips/LeftLeg/LeftLegShin/LeftFoot
+        weight: 1
+      - path: Alice/Alice_2/Hips/LeftLeg/LeftLegShin/LeftFoot/LeftToes
+        weight: 1
+      - path: Alice/Alice_2/Hips/LeftLeg/LeftLegShin/LeftFoot/LeftToes/LeftToesTip
+        weight: 1
+      - path: Alice/Alice_2/Hips/RightLeg
+        weight: 1
+      - path: Alice/Alice_2/Hips/RightLeg/RightLegShin
+        weight: 1
+      - path: Alice/Alice_2/Hips/RightLeg/RightLegShin/RightFoot
+        weight: 1
+      - path: Alice/Alice_2/Hips/RightLeg/RightLegShin/RightFoot/RightToes
+        weight: 1
+      - path: Alice/Alice_2/Hips/RightLeg/RightLegShin/RightFoot/RightToes/RightToesTip
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1/Spine2
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1/Spine2/LeftArm
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1/Spine2/LeftArm/LeftForeArm
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1/Spine2/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1/Spine2/LeftArm/LeftForeArm/LeftHand/LeftFingers
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1/Spine2/LeftArm/LeftForeArm/LeftHand/LeftFingers/LeftFingersTip
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1/Spine2/LeftArm/LeftForeArm/LeftHand/LeftThumb
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1/Spine2/LeftArm/LeftForeArm/LeftHand/LeftThumb/LeftThumbBend
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1/Spine2/LeftArm/LeftForeArm/LeftHand/LeftThumb/LeftThumbBend/LeftThumbTip
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1/Spine2/Neck
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1/Spine2/Neck/Head
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1/Spine2/Neck/Head/HeadTip
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1/Spine2/RightArm
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1/Spine2/RightArm/RightForeArm
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1/Spine2/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1/Spine2/RightArm/RightForeArm/RightHand/RightFingers
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1/Spine2/RightArm/RightForeArm/RightHand/RightFingers/RightFingersTip
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1/Spine2/RightArm/RightForeArm/RightHand/RightThumb
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1/Spine2/RightArm/RightForeArm/RightHand/RightThumb/RightThumbBend
+        weight: 1
+      - path: Alice/Alice_2/Hips/Spine1/Spine2/RightArm/RightForeArm/RightHand/RightThumb/RightThumbBend/RightThumbTip
+        weight: 1
+      - path: Alice/LeftFoot_Goal
+        weight: 1
+      - path: Alice/RightFoot_Goal
+        weight: 1
+      - path: Ha_1
+        weight: 1
+      - path: Ha_1/Text_2
+        weight: 1
+      - path: Ha_1/Text_2/1_2
+        weight: 1
+      - path: Ha_1/Text_2/1_2/Ha_2_2
+        weight: 1
+      - path: Ha_1/Text_2/1_2/Ha_2_2/a_2
+        weight: 1
+      - path: Ha_1/Text_2/1_2/Ha_2_2/H_2
+        weight: 1
+      - path: Ha_2
+        weight: 1
+      - path: Ha_2/Text
+        weight: 1
+      - path: Ha_2/Text/1
+        weight: 1
+      - path: Ha_2/Text/1/Ha
+        weight: 1
+      - path: Ha_2/Text/1/Ha/a
+        weight: 1
+      - path: Ha_2/Text/1/Ha/H
+        weight: 1
+      - path: Ha_3
+        weight: 1
+      - path: Ha_3/1_3
+        weight: 1
+      - path: Ha_3/1_3/Ha_4
+        weight: 1
+      - path: Ha_3/1_3/Ha_4/a_3
+        weight: 1
+      - path: Ha_3/1_3/Ha_4/H_3
+        weight: 1
+      - path: Physical_Sky
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
