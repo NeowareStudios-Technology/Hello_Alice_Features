@@ -138,6 +138,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Editor\Vuforia\SampleOrientationSetter.cs" />
+    <Compile Include="Assets\Editor\Vuforia\VideoPlaybackScripts\VideoPlaybackEditor.cs" />
+    <Compile Include="Assets\Vuforia Video Playback\Editor\Scripts\VideoPlaybackImport.cs" />
     <Compile Include="Assets\Vuforia\Editor\Scripts\ComponentFactoryStarter\ComponentFactoryStarter.cs" />
     <Compile Include="Assets\Vuforia\Editor\Scripts\ExtensionImport.cs" />
     <Compile Include="Assets\Vuforia\Editor\Scripts\PostProcessBuildPlayer.cs" />
@@ -178,7 +181,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\VuforiaMediaSource\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\VuforiaMediaSource\README.txt" />
+    <None Include="Assets\Plugins\Android\VuforiaMediaSource\build.xml" />
     <None Include="Assets\Plugins\iOS\Vuforia.UnityExtensions.iOS.XML" />
+    <None Include="Assets\Plugins\iOS\VuforiaMediaSource\README.txt" />
+    <None Include="Assets\Plugins\iOS\VuforiaMediaSource\src\VideoPlayerHelper.mm.txt" />
+    <None Include="Assets\Plugins\iOS\VuforiaMediaSource\src\VideoPlayerWrapper.mm.txt" />
+    <None Include="Assets\StreamingAssets\QCAR\StonesAndChips.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\Launchable_Local_Storage.xml" />
     <None Include="Assets\Vuforia\Editor\Scripts\Vuforia.UnityExtensions.Editor.XML" />
     <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />

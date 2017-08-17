@@ -78,7 +78,7 @@ ModelImporter:
     400068: Spine2
     400070: //RootNode
     4300000: Alice
-    7400000: C4D Animation Take
+    7400000: Hello
     9500000: //RootNode
     11100000: //RootNode
     13700000: Alice
@@ -98,7 +98,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -106,7 +106,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: C4D Animation Take
+      name: Hello
       takeName: C4D Animation Take
       firstFrame: 0
       lastFrame: 90
@@ -246,7 +246,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

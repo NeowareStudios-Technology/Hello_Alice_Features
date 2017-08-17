@@ -90,12 +90,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Common\CameraSettings.cs" />
+    <Compile Include="Assets\Common\FrameRateSettings.cs" />
+    <Compile Include="Assets\Common\InitErrorHandler.cs" />
+    <Compile Include="Assets\Common\MenuAnimator.cs" />
+    <Compile Include="Assets\Common\MenuOptions.cs" />
+    <Compile Include="Assets\Common\SplashAbout\AboutScreen.cs" />
+    <Compile Include="Assets\Common\SplashAbout\AsyncSceneLoader.cs" />
+    <Compile Include="Assets\Common\SplashAbout\LoadingScreen.cs" />
+    <Compile Include="Assets\Common\TapHandler.cs" />
+    <Compile Include="Assets\Common\TrackableSettings.cs" />
+    <Compile Include="Assets\Scripts\PlayVideo.cs" />
+    <Compile Include="Assets\Scripts\VideoPlaybackMenuOptions.cs" />
+    <Compile Include="Assets\Scripts\VideoPlaybackTapHandler.cs" />
+    <Compile Include="Assets\Vuforia Video Playback\Scripts\VideoPlaybackBehaviour.cs" />
+    <Compile Include="Assets\Vuforia Video Playback\Scripts\VideoPlayerHelper.cs" />
     <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultSmartTerrainEventHandler.cs" />
-    <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\GLErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\HideExcessAreaBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\ImageTargetBehaviour.cs" />
@@ -112,6 +126,7 @@
     <Compile Include="Assets\Vuforia\Scripts\ReconstructionFromTargetBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\SurfaceBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\TextRecoBehaviour.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\TrackableEventHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\TurnOffBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\TurnOffWordBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\UserDefinedTargetBuildingBehaviour.cs" />
@@ -242,6 +257,8 @@
     <Compile Include="Assets\Watson\Scripts\Widgets\MicrophoneWidget.cs" />
     <Compile Include="Assets\Watson\Scripts\Widgets\NaturalLanguageClassifierWidget.cs" />
     <Compile Include="Assets\Watson\Scripts\Widgets\SpeechDisplayWidget.cs" />
+    <Compile Include="Assets\Watson\Scripts\Widgets\SpeechDisplayWidgetHello.cs" />
+    <Compile Include="Assets\Watson\Scripts\Widgets\SpeechDisplayWidgetjump.cs" />
     <Compile Include="Assets\Watson\Scripts\Widgets\SpeechToTextWidget.cs" />
     <Compile Include="Assets\Watson\Scripts\Widgets\TextToSpeechWidget.cs" />
     <Compile Include="Assets\Watson\Scripts\Widgets\TouchWidget.cs" />
@@ -450,7 +467,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\VuforiaMediaSource\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\VuforiaMediaSource\README.txt" />
+    <None Include="Assets\Plugins\Android\VuforiaMediaSource\build.xml" />
     <None Include="Assets\Plugins\iOS\Vuforia.UnityExtensions.iOS.XML" />
+    <None Include="Assets\Plugins\iOS\VuforiaMediaSource\README.txt" />
+    <None Include="Assets\Plugins\iOS\VuforiaMediaSource\src\VideoPlayerHelper.mm.txt" />
+    <None Include="Assets\Plugins\iOS\VuforiaMediaSource\src\VideoPlayerWrapper.mm.txt" />
+    <None Include="Assets\StreamingAssets\QCAR\StonesAndChips.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\Launchable_Local_Storage.xml" />
     <None Include="Assets\Vuforia\Editor\Scripts\Vuforia.UnityExtensions.Editor.XML" />
     <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />

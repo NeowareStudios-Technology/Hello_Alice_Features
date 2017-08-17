@@ -34,6 +34,7 @@ namespace IBM.Watson.DeveloperCloud.Widgets
   public class SpeechDisplayWidget : Widget
   {
     Animator anim;
+  
     #region Inputs
     [SerializeField]
     private Input m_SpeechInput = new Input("SpeechInput", typeof(SpeechToTextData), "OnSpeechInput");
@@ -69,12 +70,14 @@ namespace IBM.Watson.DeveloperCloud.Widgets
     #region Event Handlers
     private void OnSpeechInput(Data data)
     {
-      
+      //////////////////////////Check for target word by comparing string/////////////////////////////////
       anim = GetComponent<Animator>();
       //anim.SetBool("jumping", true);
       bool b;
-      string target = "jump";
-      b = m_Output.text.Contains(target);
+
+      string target1 = "jump";
+      
+      b = m_Output.text.Contains(target1);
       if (b == true)
       {
         anim.SetBool("jumping", true);
@@ -82,7 +85,8 @@ namespace IBM.Watson.DeveloperCloud.Widgets
        
        
       }
-      //anim.SetBool("jumping", true);
+     
+      /////////////////////////////////////////////////////////////////////////////////////////////////////
      
         SpeechRecognitionEvent result = ((SpeechToTextData)data).Results;
         

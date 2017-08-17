@@ -134,7 +134,7 @@ ModelImporter:
     4300008: H_3
     4300010: a_3
     4300012: Alice_2
-    7400000: C4D Animation Take
+    7400000: Laugh
     9500000: //RootNode
     11100000: //RootNode
     13700000: Alice_2
@@ -154,7 +154,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -162,7 +162,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: C4D Animation Take
+      name: Laugh
       takeName: C4D Animation Take
       firstFrame: 0
       lastFrame: 90
@@ -340,7 +340,7 @@ ModelImporter:
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
