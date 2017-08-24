@@ -33,8 +33,10 @@ namespace IBM.Watson.DeveloperCloud.Widgets
 
   public class SpeechDisplayWidget : Widget
   {
+    public Text tc;
     Animator anim;
-  
+    public static bool correct = false;
+
     #region Inputs
     [SerializeField]
     private Input m_SpeechInput = new Input("SpeechInput", typeof(SpeechToTextData), "OnSpeechInput");
@@ -59,17 +61,19 @@ namespace IBM.Watson.DeveloperCloud.Widgets
     [SerializeField]
     private Text m_OutputStatus = null;
     [SerializeField]
-    private float m_MinConfidenceToShow = 0.5f;
+    private float m_MinConfidenceToShow = 0.2f;
 
     private string m_PreviousOutputTextWithStatus = "";
     private string m_PreviousOutputText = "";
     private float m_ThresholdTimeFromLastInput = 3.0f; //3 secs as threshold time. After 3 secs from last OnSpeechInput, we are considering input as new input
     private float m_TimeAtLastInterim = 0.0f;
     #endregion
-    
+
     #region Event Handlers
+
     private void OnSpeechInput(Data data)
     {
+      GameObject outputtext = GameObject.Find("Output");
       //////////////////////////Check for target word by comparing string/////////////////////////////////
       anim = GetComponent<Animator>();
       //anim.SetBool("jumping", true);
@@ -82,8 +86,11 @@ namespace IBM.Watson.DeveloperCloud.Widgets
       {
         anim.SetBool("jumping", true);
         print("correct");
-       
-       
+        correct = true;
+        tc = outputtext.GetComponent<Text>();
+        tc.color = Color.green;
+
+        DetectCollision.activated = false;
       }
      
       /////////////////////////////////////////////////////////////////////////////////////////////////////

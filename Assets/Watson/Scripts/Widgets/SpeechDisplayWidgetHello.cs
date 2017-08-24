@@ -20,6 +20,7 @@ using IBM.Watson.DeveloperCloud.DataTypes;
 using IBM.Watson.DeveloperCloud.Services.SpeechToText.v1;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 #pragma warning disable 414
 
@@ -34,7 +35,8 @@ namespace IBM.Watson.DeveloperCloud.Widgets
   public class SpeechDisplayWidgetHello : Widget
   {
     Animator anim;
-  
+    
+    public Text tc;
     #region Inputs
     [SerializeField]
     private Input m_SpeechInput = new Input("SpeechInput", typeof(SpeechToTextData), "OnSpeechInput");
@@ -59,7 +61,7 @@ namespace IBM.Watson.DeveloperCloud.Widgets
     [SerializeField]
     private Text m_OutputStatus = null;
     [SerializeField]
-    private float m_MinConfidenceToShow = 0.5f;
+    private float m_MinConfidenceToShow = 0.2f;
 
     private string m_PreviousOutputTextWithStatus = "";
     private string m_PreviousOutputText = "";
@@ -68,9 +70,13 @@ namespace IBM.Watson.DeveloperCloud.Widgets
     #endregion
     
     #region Event Handlers
+    
+
+
+
     private void OnSpeechInput(Data data)
     {
-      
+      GameObject outputtext = GameObject.Find("Output");
       anim = GetComponent<Animator>();
       
 
@@ -83,6 +89,12 @@ namespace IBM.Watson.DeveloperCloud.Widgets
       {
         anim.SetBool("hello", true);
         print("trigger hello");
+        tc = outputtext.GetComponent<Text>();
+        tc.color = Color.green;
+
+        ToggleSpeech.toggle = false;
+        
+       
       }
       ///////////////////////////////////////////////////////////////////////////////////////////////
      

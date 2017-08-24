@@ -23,16 +23,18 @@ using IBM.Watson.DeveloperCloud.Logging;
 using UnityEngine;
 using UnityEngine.UI;
 using IBM.Watson.DeveloperCloud.Utilities;
-
+using System.Collections;
 #pragma warning disable 414
 
 namespace IBM.Watson.DeveloperCloud.Widgets
 {
+ 
   /// <summary>
   /// SpeechToText Widget that wraps the SpeechToText service.
   /// </summary>
   public class SpeechToTextWidget : Widget
   {
+    bool toggletog = DetectCollision.activated;
     #region Inputs
     [SerializeField]
     private Input m_AudioInput = new Input("Audio", typeof(AudioData), "OnAudio");
@@ -71,10 +73,12 @@ namespace IBM.Watson.DeveloperCloud.Widgets
 
     #region Public Properties
     /// <summary>
+    ///
     /// This property starts or stop's this widget listening for speech.
     /// </summary>
     public bool Active
     {
+    
       get { return m_SpeechToText.IsListening; }
       set
       {
@@ -92,6 +96,7 @@ namespace IBM.Watson.DeveloperCloud.Widgets
           if (m_StatusText != null)
             m_StatusText.text = "LISTENING";
         }
+    
         else if (!value && m_SpeechToText.IsListening)
         {
           m_SpeechToText.StopListening();
@@ -99,6 +104,14 @@ namespace IBM.Watson.DeveloperCloud.Widgets
             m_StatusText.text = "READY";
         }
       }
+    }
+    void Update()
+    {
+      if (toggletog == true)
+      {
+        Active = true;
+      }
+
     }
     #endregion
 
@@ -118,12 +131,14 @@ namespace IBM.Watson.DeveloperCloud.Widgets
     {
       Active = !Active;
     }
-
+  
     /// <exclude />
     protected override void Start()
     {
+      
       base.Start();
-
+      Active = false;
+     
       if (m_StatusText != null)
         m_StatusText.text = "READY";
       if (!m_SpeechToText.GetModels(OnGetModels))
@@ -135,7 +150,7 @@ namespace IBM.Watson.DeveloperCloud.Widgets
       if (Active)
         Active = false;
     }
-
+    
     private void OnError(string error)
     {
       Active = false;
@@ -145,10 +160,17 @@ namespace IBM.Watson.DeveloperCloud.Widgets
 
     private void OnAudio(Data data)
     {
-      if (!Active)
+      toggletog = DetectCollision.activated;
+      if (toggletog == true)
+      {
         Active = true;
+        m_SpeechToText.OnListen((AudioData)data);
+      }
+     // print(toggletog);
+      //if (!Active)
+      //Active = true;
 
-      m_SpeechToText.OnListen((AudioData)data);
+  
     }
 
     private void OnLanguage(Data data)

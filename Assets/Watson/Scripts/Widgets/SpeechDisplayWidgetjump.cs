@@ -34,7 +34,7 @@ namespace IBM.Watson.DeveloperCloud.Widgets
   public class SpeechDisplayWidgetjump : Widget
   {
     Animator anim;
-  
+    public Text jc;
     #region Inputs
     [SerializeField]
     private Input m_SpeechInput = new Input("SpeechInput", typeof(SpeechToTextData), "OnSpeechInput");
@@ -59,7 +59,7 @@ namespace IBM.Watson.DeveloperCloud.Widgets
     [SerializeField]
     private Text m_OutputStatus = null;
     [SerializeField]
-    private float m_MinConfidenceToShow = 0.5f;
+    private float m_MinConfidenceToShow = 0.2f;
 
     private string m_PreviousOutputTextWithStatus = "";
     private string m_PreviousOutputText = "";
@@ -70,7 +70,7 @@ namespace IBM.Watson.DeveloperCloud.Widgets
     #region Event Handlers
     private void OnSpeechInput(Data data)
     {
-      
+      GameObject outputtext = GameObject.Find("Output");
       anim = GetComponent<Animator>();
       //anim.SetBool("jumping", true);
       bool c;
@@ -83,6 +83,12 @@ namespace IBM.Watson.DeveloperCloud.Widgets
       {
         anim.SetBool("laughing", true);
         print("trigger laugh");
+        jc = outputtext.GetComponent<Text>();
+        jc.color = Color.green;
+
+        DetectCollision.activated = false;
+
+
       }
       ///////////////////////////////////////////////////////////////////////////////////////////////////////
      
