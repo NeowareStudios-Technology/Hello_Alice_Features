@@ -90,6 +90,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AliceAssets\ToggleSpeech.cs" />
+    <Compile Include="Assets\ClickSounds.cs" />
     <Compile Include="Assets\Common\CameraSettings.cs" />
     <Compile Include="Assets\Common\FrameRateSettings.cs" />
     <Compile Include="Assets\Common\InitErrorHandler.cs" />
@@ -100,6 +102,8 @@
     <Compile Include="Assets\Common\SplashAbout\LoadingScreen.cs" />
     <Compile Include="Assets\Common\TapHandler.cs" />
     <Compile Include="Assets\Common\TrackableSettings.cs" />
+    <Compile Include="Assets\DetectCollision.cs" />
+    <Compile Include="Assets\MoveModel.cs" />
     <Compile Include="Assets\Scripts\PlayVideo.cs" />
     <Compile Include="Assets\Scripts\VideoPlaybackMenuOptions.cs" />
     <Compile Include="Assets\Scripts\VideoPlaybackTapHandler.cs" />
@@ -110,6 +114,7 @@
     <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultSmartTerrainEventHandler.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\GLErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\HideExcessAreaBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\ImageTargetBehaviour.cs" />
@@ -258,6 +263,7 @@
     <Compile Include="Assets\Watson\Scripts\Widgets\NaturalLanguageClassifierWidget.cs" />
     <Compile Include="Assets\Watson\Scripts\Widgets\SpeechDisplayWidget.cs" />
     <Compile Include="Assets\Watson\Scripts\Widgets\SpeechDisplayWidgetHello.cs" />
+    <Compile Include="Assets\Watson\Scripts\Widgets\SpeechDisplayWidgetPhonetic.cs" />
     <Compile Include="Assets\Watson\Scripts\Widgets\SpeechDisplayWidgetjump.cs" />
     <Compile Include="Assets\Watson\Scripts\Widgets\SpeechToTextWidget.cs" />
     <Compile Include="Assets\Watson\Scripts\Widgets\TextToSpeechWidget.cs" />
