@@ -90,7 +90,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Assets\AliceAssets\ToggleSpeech.cs" />
+=======
+>>>>>>> parent of e1c13f4... Current build
     <Compile Include="Assets\Common\CameraSettings.cs" />
     <Compile Include="Assets\Common\FrameRateSettings.cs" />
     <Compile Include="Assets\Common\InitErrorHandler.cs" />
@@ -101,7 +104,10 @@
     <Compile Include="Assets\Common\SplashAbout\LoadingScreen.cs" />
     <Compile Include="Assets\Common\TapHandler.cs" />
     <Compile Include="Assets\Common\TrackableSettings.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Resources\EnableDisable.cs" />
+=======
+>>>>>>> parent of e1c13f4... Current build
     <Compile Include="Assets\Scripts\PlayVideo.cs" />
     <Compile Include="Assets\Scripts\VideoPlaybackMenuOptions.cs" />
     <Compile Include="Assets\Scripts\VideoPlaybackTapHandler.cs" />
@@ -112,7 +118,6 @@
     <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultSmartTerrainEventHandler.cs" />
-    <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\GLErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\HideExcessAreaBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\ImageTargetBehaviour.cs" />
@@ -262,7 +267,6 @@
     <Compile Include="Assets\Watson\Scripts\Widgets\NaturalLanguageClassifierWidget.cs" />
     <Compile Include="Assets\Watson\Scripts\Widgets\SpeechDisplayWidget.cs" />
     <Compile Include="Assets\Watson\Scripts\Widgets\SpeechDisplayWidgetHello.cs" />
-    <Compile Include="Assets\Watson\Scripts\Widgets\SpeechDisplayWidgetPhonetic.cs" />
     <Compile Include="Assets\Watson\Scripts\Widgets\SpeechDisplayWidgetjump.cs" />
     <Compile Include="Assets\Watson\Scripts\Widgets\SpeechToTextWidget.cs" />
     <Compile Include="Assets\Watson\Scripts\Widgets\TextToSpeechWidget.cs" />
