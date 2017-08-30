@@ -35,10 +35,12 @@ namespace IBM.Watson.DeveloperCloud.Widgets
   {
     public Text tc;
     Animator anim;
-    
+
+    public GameObject myObject;
+    public GameObject T, S, A;
     public static bool correct = false;
     bool connected = DetectCollision.activated;
-   
+    bool right = DetectCollision.gotright;
 
     #region Inputs
     [SerializeField]
@@ -92,17 +94,29 @@ namespace IBM.Watson.DeveloperCloud.Widgets
       string target1 = "sat";
 
       if (connected == true) {
+        DetectCollision.gotright = true;
         print("connected...");
-      b = m_Output.text.Contains(target1);
+  
+        //GameObject.Find("GotitRight").SetActive(false);
+        b = m_Output.text.Contains(target1);
         if (b == true)
         {
+           
           //anim.SetBool("jumping", true);
           print("correct");
           correct = true;
+          DetectCollision.gotright = true;
+          
+          // GameObject.Find("S").GetComponent<Renderer>().material.color = Color.green;
+          // GameObject.Find("A").GetComponent<Renderer>().material.color = Color.green;
+          // GameObject.Find("T").GetComponent<Renderer>().material.color = Color.green;
           tc = outputtext.GetComponent<Text>();
           tc.color = Color.green;
-
-         DetectCollision.activated = false;
+          myObject.SetActive(true);
+          T.SetActive(false);
+          A.SetActive(false);
+          S.SetActive(false);
+          DetectCollision.activated = false;
         }
       }
 

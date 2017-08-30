@@ -213,6 +213,9 @@
     <None Include="Assets\license_3rdpartynotice.txt" />
     <None Include="Assets\link.xml" />
     <None Include="Assets\readme_SDK.txt" />
+    <None Include="Assets\scripts 1\license_3rdpartynotice.txt" />
+    <None Include="Assets\scripts 1\link.xml" />
+    <None Include="Assets\scripts 1\readme_SDK.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
