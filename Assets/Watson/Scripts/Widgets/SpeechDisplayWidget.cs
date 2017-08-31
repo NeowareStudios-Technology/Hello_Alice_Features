@@ -36,7 +36,8 @@ namespace IBM.Watson.DeveloperCloud.Widgets
     public Text tc;
     Animator anim;
     public static bool correct = false;
-
+	bool connected = DetectCollision.activated;
+		bool b;
     #region Inputs
     [SerializeField]
     private Input m_SpeechInput = new Input("SpeechInput", typeof(SpeechToTextData), "OnSpeechInput");
@@ -70,21 +71,30 @@ namespace IBM.Watson.DeveloperCloud.Widgets
     #endregion
 
     #region Event Handlers
+		void Update()
+		{
+			if (b == false) {
+				connected = DetectCollision.activated;
+				DetectCollision.activated = true;
+			}
 
+		}
     private void OnSpeechInput(Data data)
     {
+			connected = DetectCollision.activated;
+			DetectCollision.activated = true;
       GameObject outputtext = GameObject.Find("Output");
       //////////////////////////Check for target word by comparing string/////////////////////////////////
       anim = GetComponent<Animator>();
       //anim.SetBool("jumping", true);
-      bool b;
+   
 
       string target1 = "jump";
       
       b = m_Output.text.Contains(target1);
       if (b == true)
       {
-        anim.SetBool("jumping", true);
+				anim.SetBool("jumping", true);
         print("correct");
         correct = true;
         tc = outputtext.GetComponent<Text>();

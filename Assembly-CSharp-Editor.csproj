@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{01C45971-E696-BD69-7CB1-4176AD92FAC9}</ProjectGuid>
+    <ProjectGuid>{81FD7089-4A78-FE7C-1ECE-C7A07A2CA31D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -46,27 +46,81 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Editor\Vuforia\SampleOrientationSetter.cs" />
+     <Compile Include="Assets\Editor\Vuforia\VideoPlaybackScripts\VideoPlaybackEditor.cs" />
+     <Compile Include="Assets\Vuforia Video Playback\Editor\Scripts\VideoPlaybackImport.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\ComponentFactoryStarter\ComponentFactoryStarter.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\ExtensionImport.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\PostProcessBuildPlayer.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\Unzipper\SharpZipLibUnzipper.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\VuforiaConfigurationEditor.cs" />
+     <Compile Include="Assets\Watson\Scripts\Editor\Build.cs" />
+     <Compile Include="Assets\Watson\Scripts\Editor\ConfigEditor.cs" />
+     <Compile Include="Assets\Watson\Scripts\Editor\DrawerHelper.cs" />
+     <Compile Include="Assets\Watson\Scripts\Editor\NaturalLanguageClassifierEditor.cs" />
+     <Compile Include="Assets\Watson\Scripts\Editor\SerializedDelegateDrawer.cs" />
+     <Compile Include="Assets\Watson\Scripts\Editor\WidgetEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\FullSerializer\Source\Editor\AotHelpers.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\Behaviors\Visualizer\TouchVisualizerEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\Gestures\Base\PinnedTransformGestureBaseEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\Gestures\Base\TransformGestureBaseEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\Gestures\FlickGestureEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\Gestures\GestureEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\Gestures\LongPressGestureEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\Gestures\PinnedTransformGestureEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\Gestures\PressGestureEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\Gestures\ReleaseGestureEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\Gestures\ScreenTransformGestureEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\Gestures\TapGestureEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\Gestures\TransformGestureEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\InputSources\InputSourceEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\InputSources\MobileInputEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\InputSources\MouseInputEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\InputSources\StandardInputEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\Layers\CameraLayer2DEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\Layers\FullscreenLayerEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\Layers\UILayerEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\TouchManagerEditor.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\Utils\GUIElements.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\Utils\PropertyDrawers\NullToggleDrawer.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\Utils\PropertyDrawers\TagsDrawer.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\Utils\PropertyDrawers\ToggleLeftDrawer.cs" />
+     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Modules\TUIO\Editor\InputSources\TuioInputEditor.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\Watson\ThirdParty\TouchScript\Shaders\DebugDepthTest.shader" />
+     <None Include="Assets\Plugins\iOS\VuforiaMediaSource\src\VideoPlayerWrapper.mm.txt" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
-     <None Include="Assets\StreamingAssets\Vuforia\Launchable_Local_Storage.xml" />
+     <None Include="Assets\scripts 1\license_3rdpartynotice.txt" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\Launchable_Local_Storage.xml" />
+     <None Include="Assets\scripts 1\link.xml" />
      <None Include="Assets\readme_SDK.txt" />
+     <None Include="Assets\Watson\ThirdParty\TouchScript\license.txt" />
+     <None Include="Assets\Plugins\Android\VuforiaMediaSource\AndroidManifest.xml" />
+     <None Include="Assets\Watson\Scripts\Editor\TestData\pizza_sample.xml" />
+     <None Include="Assets\Plugins\Android\VuforiaMediaSource\build.xml" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\Watson\ThirdParty\TouchScript\Shaders\DebugMultiplyDepthTest.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\StonesAndChips.xml" />
+     <None Include="Assets\Plugins\Android\VuforiaMediaSource\README.txt" />
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\Watson\ThirdParty\TouchScript\Shaders\DebugNoDepthTest.shader" />
+     <None Include="Assets\Watson\ThirdParty\HtmlAgilityPack\HtmlAgilityPack.xml" />
+     <None Include="Assets\scripts 1\readme_SDK.txt" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
+     <None Include="Assets\Watson\ThirdParty\TouchScript\Shaders\DebugMultiplyNoDepthTest.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\Watson\Examples\ServiceExamples\TestData\test-stt-corpus.txt" />
+     <None Include="Assets\Plugins\iOS\VuforiaMediaSource\src\VideoPlayerHelper.mm.txt" />
+     <None Include="Assets\Plugins\iOS\VuforiaMediaSource\README.txt" />
+     <None Include="Assets\Watson\ThirdParty\WebSocketSharp\LICENSE.txt" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
  <Reference Include="Assembly-UnityScript-Editor-firstpass">
- <HintPath>/Users/Zhan/Desktop/AliceDemo/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
+ <HintPath>/Users/admin/Documents/GitHub/Hello_Alice_Features/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -129,10 +183,19 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions.Editor">
- <HintPath>/Users/Zhan/Desktop/AliceDemo/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
+ <HintPath>/Users/admin/Documents/GitHub/Hello_Alice_Features/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
- <HintPath>/Users/Zhan/Desktop/AliceDemo/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>/Users/admin/Documents/GitHub/Hello_Alice_Features/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
+ <Reference Include="HtmlAgilityPack">
+ <HintPath>/Users/admin/Documents/GitHub/Hello_Alice_Features/Assets/Watson/ThirdParty/HtmlAgilityPack/HtmlAgilityPack.dll</HintPath>
+ </Reference>
+ <Reference Include="OSCsharp">
+ <HintPath>/Users/admin/Documents/GitHub/Hello_Alice_Features/Assets/Watson/ThirdParty/TouchScript/Modules/TUIO/Libraries/OSCsharp.dll</HintPath>
+ </Reference>
+ <Reference Include="TUIOsharp">
+ <HintPath>/Users/admin/Documents/GitHub/Hello_Alice_Features/Assets/Watson/ThirdParty/TouchScript/Modules/TUIO/Libraries/TUIOsharp.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -143,7 +206,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{C6C88094-9F06-18A6-BB11-EC5172E8C94A}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{852E0D92-EAB2-BB87-E93E-D7AB3ED88CA6}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -94,7 +94,7 @@ namespace IBM.Watson.DeveloperCloud.Widgets
       string target1 = "sat";
 
       if (connected == true) {
-        DetectCollision.gotright = true;
+       // DetectCollision.gotright = true;
         print("connected...");
   
         //GameObject.Find("GotitRight").SetActive(false);
@@ -105,17 +105,17 @@ namespace IBM.Watson.DeveloperCloud.Widgets
           //anim.SetBool("jumping", true);
           print("correct");
           correct = true;
-          DetectCollision.gotright = true;
+         // DetectCollision.gotright = true;
           
-          // GameObject.Find("S").GetComponent<Renderer>().material.color = Color.green;
-          // GameObject.Find("A").GetComponent<Renderer>().material.color = Color.green;
-          // GameObject.Find("T").GetComponent<Renderer>().material.color = Color.green;
+           GameObject.Find("Sletter").GetComponent<Renderer>().material.color = Color.green;
+           GameObject.Find("A").GetComponent<Renderer>().material.color = Color.green;
+           GameObject.Find("T").GetComponent<Renderer>().material.color = Color.green;
           tc = outputtext.GetComponent<Text>();
           tc.color = Color.green;
           myObject.SetActive(true);
-          T.SetActive(false);
-          A.SetActive(false);
-          S.SetActive(false);
+         // T.SetActive(false);
+         // A.SetActive(false);
+        //  S.SetActive(false);
           DetectCollision.activated = false;
         }
       }
