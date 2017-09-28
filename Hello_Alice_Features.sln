@@ -1,13 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello_Alice_Features.Plugins", "Hello_Alice_Features.Plugins.csproj", "{007C9477-F749-9105-CF0A-CB61B87B79E8}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello_Alice_Features", "Assembly-CSharp-firstpass.csproj", "{43BADBD4-4D69-C912-E1B7-4ACE49A64BA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello_Alice_Features", "Hello_Alice_Features.csproj", "{6568F31D-D08F-ACCE-8FD9-C24C2C06E8B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello_Alice_Features", "Assembly-CSharp.csproj", "{852E0D92-EAB2-BB87-E93E-D7AB3ED88CA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello_Alice_Features.Editor.Plugins", "Hello_Alice_Features.Editor.Plugins.csproj", "{2DE11D82-DC9C-9105-03EB-7119F90F5F91}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello_Alice_Features", "Assembly-CSharp-Editor-firstpass.csproj", "{1581D499-CE4A-76C0-A952-AD4F393E9D77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello_Alice_Features.Editor", "Hello_Alice_Features.Editor.csproj", "{2D2DF809-3276-76AB-7E73-3ED36D34D4FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello_Alice_Features", "Assembly-CSharp-Editor.csproj", "{81FD7089-4A78-FE7C-1ECE-C7A07A2CA31D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,24 +15,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{007C9477-F749-9105-CF0A-CB61B87B79E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{007C9477-F749-9105-CF0A-CB61B87B79E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{007C9477-F749-9105-CF0A-CB61B87B79E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{007C9477-F749-9105-CF0A-CB61B87B79E8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6568F31D-D08F-ACCE-8FD9-C24C2C06E8B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6568F31D-D08F-ACCE-8FD9-C24C2C06E8B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6568F31D-D08F-ACCE-8FD9-C24C2C06E8B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6568F31D-D08F-ACCE-8FD9-C24C2C06E8B9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2DE11D82-DC9C-9105-03EB-7119F90F5F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2DE11D82-DC9C-9105-03EB-7119F90F5F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2DE11D82-DC9C-9105-03EB-7119F90F5F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2DE11D82-DC9C-9105-03EB-7119F90F5F91}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2D2DF809-3276-76AB-7E73-3ED36D34D4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D2DF809-3276-76AB-7E73-3ED36D34D4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D2DF809-3276-76AB-7E73-3ED36D34D4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D2DF809-3276-76AB-7E73-3ED36D34D4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43BADBD4-4D69-C912-E1B7-4ACE49A64BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43BADBD4-4D69-C912-E1B7-4ACE49A64BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43BADBD4-4D69-C912-E1B7-4ACE49A64BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43BADBD4-4D69-C912-E1B7-4ACE49A64BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{852E0D92-EAB2-BB87-E93E-D7AB3ED88CA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{852E0D92-EAB2-BB87-E93E-D7AB3ED88CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{852E0D92-EAB2-BB87-E93E-D7AB3ED88CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{852E0D92-EAB2-BB87-E93E-D7AB3ED88CA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1581D499-CE4A-76C0-A952-AD4F393E9D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1581D499-CE4A-76C0-A952-AD4F393E9D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1581D499-CE4A-76C0-A952-AD4F393E9D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1581D499-CE4A-76C0-A952-AD4F393E9D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81FD7089-4A78-FE7C-1ECE-C7A07A2CA31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81FD7089-4A78-FE7C-1ECE-C7A07A2CA31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81FD7089-4A78-FE7C-1ECE-C7A07A2CA31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81FD7089-4A78-FE7C-1ECE-C7A07A2CA31D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
