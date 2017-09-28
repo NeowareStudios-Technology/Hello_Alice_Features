@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: f164a2503f69c634d92645b1509143d2
+timeCreated: 1505931632
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Alice
+    100002: //RootNode
+    100004: Chair
+    100006: Cinema4D_Editor
+    100008: Cube
+    100010: Cube_1
+    100012: Cylinder
+    100014: Cylinder_1
+    100016: Head
+    100018: HeadTip
+    100020: Hips
+    100022: LeftArm
+    100024: LeftFingers
+    100026: LeftFingersTip
+    100028: LeftFoot
+    100030: LeftFoot_Goal
+    100032: LeftForeArm
+    100034: LeftHand
+    100036: LeftLeg
+    100038: LeftLegShin
+    100040: LeftThumb
+    100042: LeftThumbBend
+    100044: LeftThumbTip
+    100046: LeftToes
+    100048: LeftToesTip
+    100050: Leg
+    100052: Neck
+    100054: RightArm
+    100056: RightFingers
+    100058: RightFingersTip
+    100060: RightFoot
+    100062: RightFoot_Goal
+    100064: RightForeArm
+    100066: RightHand
+    100068: RightLeg
+    100070: RightLegShin
+    100072: RightThumb
+    100074: RightThumbBend
+    100076: RightThumbTip
+    100078: RightToes
+    100080: RightToesTip
+    100082: Spine1
+    100084: Spine2
+    100086: Symmetry
+    400000: Alice
+    400002: //RootNode
+    400004: Chair
+    400006: Cinema4D_Editor
+    400008: Cube
+    400010: Cube_1
+    400012: Cylinder
+    400014: Cylinder_1
+    400016: Head
+    400018: HeadTip
+    400020: Hips
+    400022: LeftArm
+    400024: LeftFingers
+    400026: LeftFingersTip
+    400028: LeftFoot
+    400030: LeftFoot_Goal
+    400032: LeftForeArm
+    400034: LeftHand
+    400036: LeftLeg
+    400038: LeftLegShin
+    400040: LeftThumb
+    400042: LeftThumbBend
+    400044: LeftThumbTip
+    400046: LeftToes
+    400048: LeftToesTip
+    400050: Leg
+    400052: Neck
+    400054: RightArm
+    400056: RightFingers
+    400058: RightFingersTip
+    400060: RightFoot
+    400062: RightFoot_Goal
+    400064: RightForeArm
+    400066: RightHand
+    400068: RightLeg
+    400070: RightLegShin
+    400072: RightThumb
+    400074: RightThumbBend
+    400076: RightThumbTip
+    400078: RightToes
+    400080: RightToesTip
+    400082: Spine1
+    400084: Spine2
+    400086: Symmetry
+    2300000: Cube
+    2300002: Cube_1
+    2300004: Cylinder
+    2300006: Cylinder_1
+    3300000: Cube
+    3300002: Cube_1
+    3300004: Cylinder
+    3300006: Cylinder_1
+    4300000: Cube_1
+    4300002: Cylinder_1
+    4300004: Cylinder
+    4300006: Cube
+    4300008: Alice
+    7400000: C4D Animation Take
+    9500000: //RootNode
+    13700000: Alice
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

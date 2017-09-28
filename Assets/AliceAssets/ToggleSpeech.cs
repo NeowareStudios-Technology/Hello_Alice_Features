@@ -14,7 +14,7 @@ public class ToggleSpeech : MonoBehaviour {
         
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            print(toggle);
+           // print(toggle);
             if (toggle == false)
             {
                 toggle = true;
