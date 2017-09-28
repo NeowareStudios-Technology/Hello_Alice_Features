@@ -1,18 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+
 public class DetectCollision : MonoBehaviour {
     public static bool activated = false;
     public GameObject letterS;
     public GameObject slt;
     public GameObject shell;
     public static bool gotright = false;
-    float begintime = 0;
-    float endtime = 0;
-    public static bool wedidit;
-    string target1 = "sat";
-  
+
+
     Animator otherAnimator;
     // Use this for initialization
     void Start () {
@@ -20,9 +17,8 @@ public class DetectCollision : MonoBehaviour {
         slt = GameObject.Find("Slot");
         shell = GameObject.Find("Shell");
         otherAnimator = letterS.GetComponent<Animator>();
-        wedidit = false;
-        
-        //2048 x 1536
+
+
     }
     void OnCollisionEnter(Collision col)
     {
@@ -30,12 +26,8 @@ public class DetectCollision : MonoBehaviour {
         {
             activated = true;
             print("collided!");
-          //  print(activated);
-            begintime = Time.time;
-            
-           // print("Time of recording:" + Time.time);
+            print("Time of recording:" + Time.time);
             otherAnimator.SetBool("IsJumping", true);
-            
             //print(activated);
         }
     }
